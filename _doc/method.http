@@ -1,0 +1,26 @@
+###
+GET http://localhost:3000/findAll
+
+###
+GET http://localhost:3000/findOne/1
+
+###
+POST http://localhost:3000/create
+Content-Type: application/json
+
+{
+    "name": "new task"
+}
+
+###
+PUT http://localhost:3000/update/1
+Content-Type: application/json
+
+{
+    "name": "update task"
+}
+
+###
+DELETE http://localhost:3000/delete/1
+
+
